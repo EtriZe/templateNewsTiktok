@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+.screen {
+    height: 848px;
+    width: 477px;
+    display: flex;
+}
+
+.video-background {
+    position: absolute;
+    height: 848px;
+    width: 473px;
+    z-index: 0;
+}
+
+.sommaireContainer {
+    width: 12%;
+    z-index: 1;
+    /* background-color: #00800059; */
+}
+
+.sommaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 9%;
+}
+
+.contentContainer {
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+}
+
+.title {
+    height: 14%;
+    width: 100%;
+    /* background-color: #0000ff80; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent {
+    /* background-color: #ff000070; */
+    height: 100%;
+    width: 100%;
+}
+
+.mainVisual {
+    /* background-color: #000000a3; */
+    height: 81%;
+    width: 93%;
+    border-radius: 40px;
+    justify-content: center;
+    /* box-shadow: 10px 5px 5px red; */
+    box-shadow: 2px 12px 16px #000000;
+}
+
+.informations {
+    /* background-color: #000000a3; */
+    height: 100%;
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    width: 99%;
+    height: 97%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mainContent > div{
+    display: flex;
+    /* background-color: #ff000070; */
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1%;
+    align-items: center;
+}
+
+.sommaire > img{
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.title span{
+    color:white;
+    font-size: 39px;
+    text-align: center;
+}
+
+.informations > span {
+    color: #000000;
+    font-size: 39px;
+    text-align: center;
+    width: 100%;
+}
