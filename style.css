@@ -35,6 +35,8 @@
     display: flex;
     flex-direction: column;
     gap: 7%;
+    height: 95%;
+    margin-top: 12%;
 }
 
 .title {
@@ -54,7 +56,7 @@
 
 .mainVisual {
     /* background-color: #000000a3; */
-    height: 81%;
+    height: 90%;
     width: 93%;
     border-radius: 40px;
     justify-content: center;
@@ -124,7 +126,7 @@ video{
 }
 
 .informations > span {
-    color: #000000;
+    color: white;
     font-size: 39px;
     text-align: center;
     width: 100%;
