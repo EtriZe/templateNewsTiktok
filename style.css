@@ -206,6 +206,7 @@ video {
   text-align: center;
   font-size: 50px;
   color:white;
+  bottom: 44% !important;
 }
 
 .carousel > img {
