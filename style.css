@@ -207,3 +207,7 @@ video {
   font-size: 50px;
   color:white;
 }
+
+.carousel > img {
+  object-fit: cover;
+}
